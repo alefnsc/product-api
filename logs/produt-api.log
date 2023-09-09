@@ -1,0 +1,234 @@
+2023-09-09T19:33:09.709Z [product-api] info GET /product - []
+2023-09-09T19:33:47.636Z [product-api] error POST  - Unexpected token 'c', "  #" is not valid JSON
+2023-09-09T19:34:05.166Z [product-api] error POST  - Expected property name or '}' in JSON at position 6
+2023-09-09T19:34:20.856Z [product-api] error POST  - Required field is missing: code
+2023-09-09T19:34:32.428Z [product-api] error POST  - notNull Violation: product.Code cannot be null,
+notNull Violation: product.Description cannot be null,
+notNull Violation: product.Price cannot be null
+2023-09-09T19:35:02.913Z [product-api] error POST  - column "code" of relation "products" does not exist
+2023-09-09T19:36:01.746Z [product-api] info POST /product - {"Code":1,"Description":"Car","Price":5000}
+2023-09-09T19:36:05.843Z [product-api] info GET /product - [{"Code":"1","Description":"Car","Price":5000,"createdAt":"2023-09-09T19:36:01.726Z","updatedAt":"2023-09-09T19:36:01.726Z"}]
+2023-09-09T19:36:51.747Z [product-api] error PUT  - Required field is missing: Price
+2023-09-09T19:37:04.101Z [product-api] error PUT  - Missing where attribute in the options parameter
+2023-09-09T19:37:25.827Z [product-api] error PUT  - Missing where attribute in the options parameter
+2023-09-09T19:41:48.894Z [product-api] info POST /product - {"Code":"1","Description":"Car","Price":7000}
+2023-09-09T19:42:10.244Z [product-api] info GET /product - [{"Code":"1","Description":"Car","Price":7000,"createdAt":"2023-09-09T19:36:01.726Z","updatedAt":"2023-09-09T19:41:48.875Z"}]
+2023-09-09T19:44:57.753Z [product-api] error DELETE  - operator does not exist: character varying = integer
+2023-09-09T19:45:00.016Z [product-api] error DELETE  - operator does not exist: character varying = integer
+2023-09-09T19:45:28.022Z [product-api] info DELETE /product/:id - "1"
+2023-09-09T19:45:32.901Z [product-api] info GET /product - []
+2023-09-09T19:46:30.908Z [product-api] info POST /product - {"Code":1,"Description":"Car","Price":5000}
+2023-09-09T19:46:33.376Z [product-api] error POST  - Validation error
+2023-09-09T19:55:27.794Z [product-api] error POST  - WHERE parameter "Code" has invalid "undefined" value
+2023-09-09T19:56:18.980Z [product-api] error POST  - operator does not exist: character varying = integer
+2023-09-09T19:56:28.694Z [product-api] info GET /product - [{"Code":"1","Description":"Car","Price":5000,"createdAt":"2023-09-09T19:46:30.872Z","updatedAt":"2023-09-09T19:46:30.872Z"}]
+2023-09-09T19:56:39.170Z [product-api] error POST  - operator does not exist: character varying = integer
+2023-09-09T19:57:04.425Z [product-api] error POST  - operator does not exist: character varying = integer
+2023-09-09T19:57:05.894Z [product-api] error POST  - operator does not exist: character varying = integer
+2023-09-09T19:58:05.444Z [product-api] info POST /product - {"Code":"1","Description":"Car","Price":5000}
+2023-09-09T19:58:10.905Z [product-api] info POST /product - {"Code":"1","Description":"Car","Price":7000}
+2023-09-09T19:58:33.902Z [product-api] info GET /product - [{"Code":"1","Description":"Car","Price":7000,"createdAt":"2023-09-09T19:46:30.872Z","updatedAt":"2023-09-09T19:58:10.898Z"}]
+2023-09-09T19:59:13.302Z [product-api] info POST /product - {"Code":"2","Description":"Car","Price":7000}
+2023-09-09T20:01:47.790Z [product-api] info POST /product - {"Code":"1","Description":"Car","Price":7000}
+2023-09-09T20:11:53.167Z [product-api] error PUT  - res.stauts is not a function
+2023-09-09T20:12:02.541Z [product-api] info POST /product - {"Code":"3","Description":"Car","Price":7000}
+2023-09-09T20:12:23.214Z [product-api] info POST /product - {"Code":"1","Description":"Car","Price":7000}
+2023-09-09T20:13:23.500Z [product-api] error PUT  - Invalid value Promise { <pending> }
+2023-09-09T20:13:39.634Z [product-api] error PUT  - operator does not exist: character varying = integer
+2023-09-09T20:16:25.564Z [product-api] error PUT  - WHERE parameter "Code" has invalid "undefined" value
+2023-09-09T20:16:43.786Z [product-api] error PUT  - WHERE parameter "Code" has invalid "undefined" value
+2023-09-09T20:16:58.170Z [product-api] error PUT  - operator does not exist: character varying = integer
+2023-09-09T20:17:29.749Z [product-api] error PUT  - operator does not exist: character varying = integer
+2023-09-09T20:17:49.656Z [product-api] info POST /product - {"Code":"pato","Description":"Car","Price":7000}
+2023-09-09T20:17:54.172Z [product-api] info GET /product - [{"Code":"1","Description":"Car","Price":7000,"createdAt":"2023-09-09T19:46:30.872Z","updatedAt":"2023-09-09T20:17:29.727Z"},{"Code":"pato","Description":"Car","Price":7000,"createdAt":"2023-09-09T20:17:49.640Z","updatedAt":"2023-09-09T20:17:49.640Z"}]
+2023-09-09T20:18:02.637Z [product-api] error PUT  - operator does not exist: character varying = integer
+2023-09-09T20:19:17.684Z [product-api] error PUT  - Invalid value product {
+  dataValues: {
+    Code: 'pato',
+    Description: 'Car',
+    Price: 9000,
+    createdAt: 2023-09-09T20:17:49.640Z,
+    updatedAt: 2023-09-09T20:19:17.653Z
+  },
+  _previousDataValues: {
+    Code: 'pato',
+    Description: 'Car',
+    Price: 9000,
+    createdAt: 2023-09-09T20:17:49.640Z,
+    updatedAt: 2023-09-09T20:19:17.653Z
+  },
+  uniqno: 1,
+  _changed: Set(0) {},
+  _options: {
+    isNewRecord: false,
+    _schema: null,
+    _schemaDelimiter: '',
+    raw: true,
+    attributes: undefined
+  },
+  isNewRecord: false
+}
+2023-09-09T20:19:46.771Z [product-api] info POST /product - {"Code":"pato","Description":"Car","Price":9000}
+2023-09-09T20:20:07.595Z [product-api] info POST /product - {"Code":"pato","Description":"Car","Price":9000}
+2023-09-09T20:20:10.759Z [product-api] info POST /product - {"Code":"pato","Description":"Car","Price":9000}
+2023-09-09T20:20:16.624Z [product-api] info POST /product - {"Code":"pato","Description":"Car","Price":9000}
+2023-09-09T20:20:19.173Z [product-api] info GET /product - [{"Code":"1","Description":"Car","Price":7000,"createdAt":"2023-09-09T19:46:30.872Z","updatedAt":"2023-09-09T20:17:29.727Z"},{"Code":"pato","Description":"Car","Price":9000,"createdAt":"2023-09-09T20:17:49.640Z","updatedAt":"2023-09-09T20:20:16.597Z"}]
+2023-09-09T20:20:45.966Z [product-api] info POST /product - {"Code":"pato","Description":"Car","Price":9000}
+2023-09-09T20:20:52.243Z [product-api] info POST /product - {"Code":"pato","Description":"Car","Price":10000}
+2023-09-09T20:21:40.995Z [product-api] info POST /product - {"Code":"pato","Description":"Car","Price":10000}
+2023-09-09T20:22:25.840Z [product-api] info POST /product - {"Code":"pato","Description":"Car","Price":10000}
+2023-09-09T20:22:34.107Z [product-api] info POST /product - {"Code":"pato","Description":"Car","Price":10000}
+2023-09-09T20:23:02.234Z [product-api] info POST /product - {"Code":"2","Description":"Car","Price":10000}
+2023-09-09T20:23:05.454Z [product-api] info POST /product - {"Code":"1","Description":"Car","Price":10000}
+2023-09-09T20:24:49.304Z [product-api] error DELETE  - Invalid status code: 1
+2023-09-09T20:25:11.322Z [product-api] info GET /product - [{"Code":"pato","Description":"Car","Price":10000,"createdAt":"2023-09-09T20:17:49.640Z","updatedAt":"2023-09-09T20:22:34.080Z"}]
+2023-09-09T20:25:12.852Z [product-api] info GET /product - [{"Code":"pato","Description":"Car","Price":10000,"createdAt":"2023-09-09T20:17:49.640Z","updatedAt":"2023-09-09T20:22:34.080Z"}]
+2023-09-09T20:25:54.436Z [product-api] info POST /product - {"Code":"test","Description":"Car","Price":7000}
+2023-09-09T20:26:02.269Z [product-api] info DELETE /product/:id - "test"
+2023-09-09T20:26:13.505Z [product-api] info GET /product - [{"Code":"pato","Description":"Car","Price":10000,"createdAt":"2023-09-09T20:17:49.640Z","updatedAt":"2023-09-09T20:22:34.080Z"}]
+2023-09-09T20:28:45.510Z [product-api] error PUT  - (intermediate value).code is not a function
+2023-09-09T20:29:40.305Z [product-api] error PUT  - Product with provided code not found
+2023-09-09T20:32:06.576Z [product-api] error PUT  - error is not a constructor
+2023-09-09T20:32:37.033Z [product-api] error PUT  - Product with provided code not found
+2023-09-09T20:32:49.234Z [product-api] error PUT  - error is not a constructor
+2023-09-09T20:33:14.237Z [product-api] info POST /product - {"Code":"1","Description":"Car","Price":10000}
+2023-09-09T20:35:39.499Z [product-api] info DELETE /product/:id - "test"
+2023-09-09T20:35:43.366Z [product-api] info GET /product - [{"Code":"pato","Description":"Car","Price":10000,"createdAt":"2023-09-09T20:17:49.640Z","updatedAt":"2023-09-09T20:22:34.080Z"}]
+2023-09-09T20:35:46.477Z [product-api] info POST /product - {"Code":"teste","Description":"Car","Price":7000}
+2023-09-09T20:35:51.019Z [product-api] info GET /product - [{"Code":"pato","Description":"Car","Price":10000,"createdAt":"2023-09-09T20:17:49.640Z","updatedAt":"2023-09-09T20:22:34.080Z"},{"Code":"teste","Description":"Car","Price":7000,"createdAt":"2023-09-09T20:35:46.467Z","updatedAt":"2023-09-09T20:35:46.467Z"}]
+2023-09-09T20:35:53.761Z [product-api] info DELETE /product/:id - "teste"
+2023-09-09T20:39:37.189Z [product-api] info GET /product - [{"Code":"pato","Description":"Car","Price":10000,"createdAt":"2023-09-09T20:17:49.640Z","updatedAt":"2023-09-09T20:22:34.080Z"}]
+2023-09-09T21:14:18.707Z [product-api] info GET /product - [{"Code":"pato","Description":"Car","Price":10000,"createdAt":"2023-09-09T20:17:49.640Z","updatedAt":"2023-09-09T20:22:34.080Z"}]
+2023-09-09T21:24:35.448Z [product-api] info GET /product - []
+2023-09-09T21:28:40.694Z [product-api] info GET /product - []
+2023-09-09T21:29:01.354Z [product-api] info GET /product - []
+2023-09-09T21:30:22.464Z [product-api] info GET /product - []
+2023-09-09T21:34:14.199Z [product-api] info GET /product - []
+2023-09-09T21:34:14.278Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":5000}
+2023-09-09T21:35:21.873Z [product-api] info GET /product - [{"Code":"new","Description":"Car","Price":5000,"createdAt":"2023-09-09T21:34:14.257Z","updatedAt":"2023-09-09T21:34:14.257Z"}]
+2023-09-09T21:35:21.950Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":5000}
+2023-09-09T21:37:12.567Z [product-api] info GET /product - [{"Code":"new","Description":"Car","Price":5000,"createdAt":"2023-09-09T21:35:21.937Z","updatedAt":"2023-09-09T21:35:21.937Z"}]
+2023-09-09T21:37:12.653Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":5000}
+2023-09-09T21:37:47.484Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":5000}
+2023-09-09T21:43:58.250Z [product-api] info GET /product - [{"Code":"new","Description":"Car","Price":5000,"createdAt":"2023-09-09T21:37:47.468Z","updatedAt":"2023-09-09T21:37:47.468Z"}]
+2023-09-09T21:43:58.389Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":5000}
+2023-09-09T21:43:58.418Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":7000}
+2023-09-09T21:44:14.850Z [product-api] info GET /product - [{"Code":"new","Description":"Car","Price":7000,"createdAt":"2023-09-09T21:43:58.398Z","updatedAt":"2023-09-09T21:43:58.411Z"}]
+2023-09-09T21:44:15.010Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":5000}
+2023-09-09T21:44:15.037Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":7000}
+2023-09-09T21:44:15.927Z [product-api] info GET /product - [{"Code":"new","Description":"Car","Price":7000,"createdAt":"2023-09-09T21:44:15.020Z","updatedAt":"2023-09-09T21:44:15.031Z"}]
+2023-09-09T21:44:16.015Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":5000}
+2023-09-09T21:44:16.045Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":7000}
+2023-09-09T21:45:00.294Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":7000}
+2023-09-09T21:45:14.840Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":7000}
+2023-09-09T21:46:18.583Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":7000}
+2023-09-09T21:53:37.872Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":7000}
+2023-09-09T21:54:49.039Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":5000}
+2023-09-09T21:54:49.089Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":7000}
+2023-09-09T21:55:35.553Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":5000}
+2023-09-09T21:55:35.589Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":7000}
+2023-09-09T21:59:08.333Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":5000}
+2023-09-09T21:59:08.369Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":7000}
+2023-09-09T21:59:08.388Z [product-api] error POST  - notNull Violation: product.Price cannot be null
+2023-09-09T22:08:13.624Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":5000}
+2023-09-09T22:08:13.662Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":7000}
+2023-09-09T22:08:13.685Z [product-api] error POST  - notNull Violation: product.Price cannot be null
+2023-09-09T22:08:13.706Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":7000}
+2023-09-09T22:08:13.725Z [product-api] error POST  - notNull Violation: product.Price cannot be null
+2023-09-09T22:08:13.742Z [product-api] info POST /product - {"Code":"inexistent","Description":"Car","Price":7000}
+2023-09-09T22:17:08.810Z [product-api] info GET /product - [{"Code":"inexistent","Description":"Car","Price":7000,"createdAt":"2023-09-09T22:08:13.736Z","updatedAt":"2023-09-09T22:08:13.736Z"}]
+2023-09-09T22:17:26.675Z [product-api] info POST /product - {"Code":"inexisten","Description":"Car","Price":7000}
+2023-09-09T22:17:32.896Z [product-api] info GET /product - [{"Code":"inexistent","Description":"Car","Price":7000,"createdAt":"2023-09-09T22:08:13.736Z","updatedAt":"2023-09-09T22:08:13.736Z"}]
+2023-09-09T22:17:42.784Z [product-api] info POST /product - {"Code":"inexisten","Description":"Car","Price":7000}
+2023-09-09T22:18:26.419Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":5000}
+2023-09-09T22:18:26.453Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":7000}
+2023-09-09T22:18:26.475Z [product-api] error POST  - notNull Violation: product.Price cannot be null
+2023-09-09T22:18:26.507Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":7000}
+2023-09-09T22:18:26.517Z [product-api] error PUT  - Required field is missing: Price
+2023-09-09T22:18:26.545Z [product-api] info POST /product - {"Code":"inexistent","Description":"Car","Price":7000}
+2023-09-09T22:19:12.421Z [product-api] error PUT  - Required field is missing: Price
+2023-09-09T22:19:41.573Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":5000}
+2023-09-09T22:19:41.618Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":7000}
+2023-09-09T22:19:41.642Z [product-api] error POST  - notNull Violation: product.Price cannot be null
+2023-09-09T22:19:41.676Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":7000}
+2023-09-09T22:19:41.685Z [product-api] error PUT  - Required field is missing: Price
+2023-09-09T22:19:41.705Z [product-api] info POST /product - {"Code":"inexistent","Description":"Car","Price":7000}
+2023-09-09T22:21:03.805Z [product-api] info GET /product - []
+2023-09-09T22:21:03.873Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":5000}
+2023-09-09T22:21:03.902Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":7000}
+2023-09-09T22:21:03.922Z [product-api] error POST  - notNull Violation: product.Price cannot be null
+2023-09-09T22:21:03.961Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":7000}
+2023-09-09T22:21:03.972Z [product-api] error PUT  - Required field is missing: Price
+2023-09-09T22:21:03.992Z [product-api] info POST /product - {"Code":"inexistent","Description":"Car","Price":7000}
+2023-09-09T22:23:21.830Z [product-api] info GET /product - []
+2023-09-09T22:23:21.912Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":5000}
+2023-09-09T22:23:21.948Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":7000}
+2023-09-09T22:23:21.971Z [product-api] error POST  - notNull Violation: product.Price cannot be null
+2023-09-09T22:23:22.005Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":7000}
+2023-09-09T22:23:22.017Z [product-api] error PUT  - Required field is missing: Price
+2023-09-09T22:23:22.036Z [product-api] info POST /product - {"Code":"inexistent","Description":"Car","Price":7000}
+2023-09-09T22:23:22.049Z [product-api] info DELETE /product/:id - "new"
+2023-09-09T22:23:22.072Z [product-api] info DELETE /product/:id - "inexistent"
+2023-09-09T22:23:35.595Z [product-api] error GET  - ConnectionManager.getConnection was called after the connection manager was closed!
+2023-09-09T22:25:49.108Z [product-api] info GET /product - []
+2023-09-09T22:25:51.975Z [product-api] info DELETE /product/:id - "teste"
+2023-09-09T22:27:01.205Z [product-api] info GET /product - []
+2023-09-09T22:27:01.266Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":5000}
+2023-09-09T22:27:01.301Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":7000}
+2023-09-09T22:27:01.322Z [product-api] error POST  - notNull Violation: product.Price cannot be null
+2023-09-09T22:27:01.356Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":7000}
+2023-09-09T22:27:01.368Z [product-api] error PUT  - Required field is missing: Price
+2023-09-09T22:27:01.387Z [product-api] info POST /product - {"Code":"inexistent","Description":"Car","Price":7000}
+2023-09-09T22:27:01.399Z [product-api] info DELETE /product/:id - "new"
+2023-09-09T22:27:01.421Z [product-api] info DELETE /product/:id - "inexistent"
+2023-09-09T22:28:06.639Z [product-api] error POST  - ConnectionManager.getConnection was called after the connection manager was closed!
+2023-09-09T22:28:16.286Z [product-api] error POST  - ConnectionManager.getConnection was called after the connection manager was closed!
+2023-09-09T22:28:36.836Z [product-api] info POST /product - {"Code":"teste","Description":"Car","Price":7000}
+2023-09-09T22:28:43.488Z [product-api] info GET /product - [{"Code":"teste","Description":"Car","Price":7000,"createdAt":"2023-09-09T22:28:36.808Z","updatedAt":"2023-09-09T22:28:36.808Z"}]
+2023-09-09T22:28:48.009Z [product-api] info DELETE /product/:id - "teste"
+2023-09-09T22:29:24.665Z [product-api] info GET /product - []
+2023-09-09T22:29:24.742Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":5000}
+2023-09-09T22:29:24.771Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":7000}
+2023-09-09T22:29:24.792Z [product-api] error POST  - notNull Violation: product.Price cannot be null
+2023-09-09T22:29:24.824Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":7000}
+2023-09-09T22:29:24.834Z [product-api] error PUT  - Required field is missing: Price
+2023-09-09T22:29:24.852Z [product-api] info POST /product - {"Code":"inexistent","Description":"Car","Price":7000}
+2023-09-09T22:29:24.866Z [product-api] info DELETE /product/:id - "new"
+2023-09-09T22:29:24.876Z [product-api] info DELETE /product/:id - "inexistent"
+2023-09-09T22:29:46.751Z [product-api] info GET /product - []
+2023-09-09T22:29:46.817Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":5000}
+2023-09-09T22:29:46.849Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":7000}
+2023-09-09T22:29:46.870Z [product-api] error POST  - notNull Violation: product.Price cannot be null
+2023-09-09T22:29:46.904Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":7000}
+2023-09-09T22:29:46.915Z [product-api] error PUT  - Required field is missing: Price
+2023-09-09T22:29:46.934Z [product-api] info POST /product - {"Code":"inexistent","Description":"Car","Price":7000}
+2023-09-09T22:29:46.946Z [product-api] info DELETE /product/:id - "new"
+2023-09-09T22:29:46.968Z [product-api] info DELETE /product/:id - "inexistent"
+2023-09-09T22:31:06.275Z [product-api] info GET /product - []
+2023-09-09T22:31:06.343Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":5000}
+2023-09-09T22:31:06.371Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":7000}
+2023-09-09T22:31:06.391Z [product-api] error POST  - notNull Violation: product.Price cannot be null
+2023-09-09T22:31:06.428Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":7000}
+2023-09-09T22:31:06.436Z [product-api] error PUT  - Required field is missing: Price
+2023-09-09T22:31:06.456Z [product-api] info POST /product - {"Code":"inexistent","Description":"Car","Price":7000}
+2023-09-09T22:31:06.470Z [product-api] info DELETE /product/:id - "new"
+2023-09-09T22:31:06.481Z [product-api] info DELETE /product/:id - "inexistent"
+2023-09-09T22:31:31.355Z [product-api] info GET /product - []
+2023-09-09T22:31:31.432Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":5000}
+2023-09-09T22:31:31.465Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":7000}
+2023-09-09T22:31:31.485Z [product-api] error POST  - notNull Violation: product.Price cannot be null
+2023-09-09T22:31:31.519Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":7000}
+2023-09-09T22:31:31.530Z [product-api] error PUT  - Required field is missing: Price
+2023-09-09T22:31:31.549Z [product-api] info POST /product - {"Code":"inexistent","Description":"Car","Price":7000}
+2023-09-09T22:31:31.561Z [product-api] info DELETE /product/:id - "new"
+2023-09-09T22:31:31.584Z [product-api] info DELETE /product/:id - "inexistent"
+2023-09-09T22:37:14.484Z [product-api] info GET /product - []
+2023-09-09T22:37:14.560Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":5000}
+2023-09-09T22:37:14.589Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":7000}
+2023-09-09T22:37:14.608Z [product-api] error POST  - notNull Violation: product.Price cannot be null
+2023-09-09T22:37:14.649Z [product-api] info POST /product - {"Code":"new","Description":"Car","Price":7000}
+2023-09-09T22:37:14.658Z [product-api] error PUT  - Required field is missing: Price
+2023-09-09T22:37:14.679Z [product-api] info POST /product - {"Code":"inexistent","Description":"Car","Price":7000}
+2023-09-09T22:37:14.692Z [product-api] info DELETE /product/:id - "new"
+2023-09-09T22:37:14.703Z [product-api] info DELETE /product/:id - "inexistent"
+2023-09-09T23:16:08.748Z [product-api] error DELETE  - ConnectionManager.getConnection was called after the connection manager was closed!

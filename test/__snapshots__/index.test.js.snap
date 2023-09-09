@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product Integration Test Delete existent product on /product/:id return 200: Product deleted successful 1`] = `{}`;
+
+exports[`Product Integration Test Delete inexistent object on /product/:id return 405: Product with provided code not found 1`] = `{}`;
+
+exports[`Product Integration Test Post existing product on /product return 200: Existent product updated successful 1`] = `{}`;
+
+exports[`Product Integration Test Post invalid object on /product return 400: Required field is missing: Price 1`] = `{}`;
+
+exports[`Product Integration Test Post new product on /product return 201: Product created successful 1`] = `{}`;
+
+exports[`Product Integration Test Put inexistent object on /product return 405: Product with provided code not found 1`] = `{}`;
+
+exports[`Product Integration Test Put invalid object on /product return 400: Required field is missing: Price 1`] = `
+{
+  "error": "Required field is missing: Price",
+}
+`;
