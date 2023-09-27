@@ -64,10 +64,10 @@ npm run watch
 
 **Product**
 
-- **getOwners():** Retrieves all owners.
-- **createOwner(owner):** Creates a new owner.
-- **updateOwner(id, owner):** Updates an existing owner by its ID.
-- **deleteOwner(id):** Deletes an owner by its ID.
+- **getProducts():** Retrieves all product.
+- **createProduct(product):** Creates a new product.
+- **updateProduct(id, owner):** Updates an existing product by its ID.
+- **deleteProduct(id):** Deletes an owner by its ID.
   
 ## 5. Libraries Used
 
