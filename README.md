@@ -48,7 +48,7 @@ npm start
 
 This will start the Express server and make the API available at http://localhost:3000.
 
-To run tests you can run:
+To perform tests you can run:
 
 ```bash
 npm test
